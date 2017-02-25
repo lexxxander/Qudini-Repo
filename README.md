@@ -11,14 +11,14 @@ How to run Qudini Play Web Service:
 
 
 Web Service API:
- Method: sort
- Method type: POST
- Content type: applicatoin/json
- Data type: Object list
- Request body data: 
+ - Method: sort
+ - Method type: POST
+ - Content type: applicatoin/json
+ - Data type: Object list
+ - Request body data: 
      Integer id;
-	   String name;
-	   DateTime duetime;
+     String name;
+     DateTime duetime;
      DateTime jointime;
 
 URL: http://[serveraddress]:8080/qudiniplaywsapi/customer/sort
